@@ -83,7 +83,7 @@ def main():
         ws=WindSpd
     else:
         ws=pyeto.fao.wind_speed_2m(WindSpd, windspeed_height)
-
+    
     #estimate svp and delta_svp
     #Note - this is not clear in fao.py, but svp must be the mean of svp at tmax and svp at tmin,
     #not svp of mean t.  Ref. equation 11 and 12 in FAO paper
