@@ -5,8 +5,7 @@ from datetime import datetime
 def main():
     # https://www.fao.org/3/X0490E/x0490e06.htm#fao%20penman%20monteith%20equation
 
-
-    #test data
+    #test data 
 
     #site constants
     altitude=51
@@ -20,7 +19,7 @@ def main():
     25/12/2023	2.3	    0.0	 	17.9	14.3	100	67	5.37	9.93
     27/12/2023	6.6	    0.8	 	29.9	15.9	100	33	3.26	30.01
 
-    All tested with identical results!
+    All tested with identical results to BOM website
 
     Replace this with daily data when live
 
